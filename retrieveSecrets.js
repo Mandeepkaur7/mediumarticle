@@ -2,7 +2,7 @@ const AWS = require("aws-sdk");
 
 module.exports = () => {
 	//configure AWS SDK
-	const region = "us-east-1";
+	const region = "ap-south-1";
 	const client = new AWS.SecretsManager({ region });
 
 	const SecretId = "test-secret";
